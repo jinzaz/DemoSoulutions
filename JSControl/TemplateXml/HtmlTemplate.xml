@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<FileList>
+  <File>
+    <FilePath>CASystem.Web\Areas\Customer\Views\query\CustomerInfoView.cshtml</FilePath>
+    <FileTemplate>
+      <Template>''</Template>
+    </FileTemplate>
+  </File>
+  <File>
+    <FilePath>CASystem.Web\Areas\Verify\Views\FirstVerify\FirstVerifyView.cshtml</FilePath>
+    <FileTemplate>
+      <Template>''</Template>
+    </FileTemplate>
+  </File>
+  <File>
+    <FilePath>CASystem.Web\Areas\Verify\Views\FirstVerify\FirstVerifyAgainView.cshtml</FilePath>
+    <FileTemplate>
+      <Template>''</Template>
+    </FileTemplate>
+  </File>
+  <File>
+    <FilePath>CASystem.Web\Areas\Verify\Views\SecondVerify\SecondVerify.cshtml</FilePath>
+    <FileTemplate>
+      <Template>''</Template>
+    </FileTemplate>
+  </File>
+  <File>
+    <FilePath>CASystem.Web\Areas\Verify\Views\FirstVerify\TransferVerifyView.cshtml</FilePath>
+    <FileTemplate>
+      <Template>''</Template>
+    </FileTemplate>
+  </File>
+  <File>
+    <FilePath>CASystem.Web\scripts\Verify\TransferVerify.js</FilePath>
+    <FileTemplate>
+      <Template>''</Template>
+    </FileTemplate>
+  </File>
+</FileList>

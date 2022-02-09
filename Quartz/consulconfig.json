@@ -1,0 +1,6 @@
+{
+  "ConsulAddress": "http://127.0.0.1:8501", //consul服务器地址
+  "ServiceName": "Summer", //服务器名称，ApiGateway中配置的ServiceName对应的这里
+  "HealthCheck": "/Health", //健康检测地址
+  "ServiceAddress": "http://localhost:9010" //webapi地址
+}

@@ -1,0 +1,307 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<FileList>
+    <File>
+    <FilePath>CASystem.Web\scripts\Page\idTagDataFactory.js</FilePath>
+    <FileTemplate>
+      <Template>&#x000A;idTag.</Template>
+      <Template>DBQ</Template>
+      <Template> = function () {&#x000A;</Template>
+      <Template>    this.tagList = function () {&#x000A;</Template>
+      <Template>        return [{}];&#x000A;</Template>
+      <Template>    }&#x000A;</Template>
+      <Template>};&#x000A;</Template>
+    </FileTemplate>
+  </File>
+  <File>
+    <FilePath>CASystem.Web\scripts\Page\taxFactory.js</FilePath>
+    <FileTemplate>
+      <Template>&#x000A;TaxStatus.</Template>
+      <Template>DBQ</Template>
+      <Template> = function () {&#x000A;</Template>
+      <Template>    this.taxTypeList = function (openaccttype) {&#x000A;</Template>
+      <Template>        return taxType = [{}];&#x000A;</Template>
+      <Template>    }&#x000A;</Template>
+      <Template>};&#x000A;</Template>
+    </FileTemplate>
+  </File>
+  <File>
+    <FilePath>CASystem.Web\scripts\Page\CA\caFactory.js</FilePath>
+    <FileTemplate>
+      <Template>&#x000A;caFactory.</Template>
+      <Template>DBQ</Template>
+      <Template> = function() {&#x000A;</Template>
+      <Template>    this.iscaOpen = function() {&#x000A;</Template>
+      <Template>        return true;&#x000A;</Template>
+      <Template>    }&#x000A;</Template>
+      <Template>};&#x000A;</Template>
+    </FileTemplate>
+  </File>
+  <File>
+    <FilePath>CASystem.Web\scripts\Page\Customer\query\AccountBookViewFactory.js</FilePath>
+    <FileTemplate>
+      <Template>&#x000A;AccountBookView.</Template>
+      <Template>DBQ</Template>
+      <Template> = function () {&#x000A;</Template>
+      <Template>    this.columns = function () {&#x000A;</Template>
+      <Template>        return new AccountBookView["JYB"]().columns();&#x000A;</Template>
+      <Template>    }&#x000A;</Template>
+      <Template>};&#x000A;</Template>
+    </FileTemplate>
+  </File>
+  <File>
+    <FilePath>CASystem.Web\scripts\Page\Customer\query\ClientNodeViewFactory.js</FilePath>
+    <FileTemplate>
+      <Template>&#x000A;ClientNodeView.</Template>
+      <Template>DBQ</Template>
+      <Template> = function () {&#x000A;</Template>
+      <Template>    this.columns = function () {&#x000A;</Template>
+      <Template>        return new ClientNodeView["JYB"]().columns();&#x000A;</Template>
+      <Template>    }&#x000A;</Template>
+      <Template>    this.columns1 = function () {&#x000A;</Template>
+      <Template>        return new ClientNodeView["JYB"]().columns1();&#x000A;</Template>
+      <Template>    }&#x000A;</Template>
+      <Template>};&#x000A;</Template>
+    </FileTemplate>
+  </File>
+  <File>
+    <FilePath>CASystem.Web\scripts\Page\Customer\query\CustDetailVueFactory.js</FilePath>
+    <FileTemplate>
+      <Template>&#x000A;CustDetail.</Template>
+      <Template>DBQ</Template>
+      <Template> = function () {&#x000A;</Template>
+      <Template>    this.created = function (_self) {&#x000A;</Template>
+      <Template>        if (_self.data.VerifyInfo.AccountType == "6") {&#x000A;</Template>
+      <Template>            _self.IsShow.IsBank = true;&#x000A;</Template>
+      <Template>        }&#x000A;</Template>
+      <Template>        return new CustDetail["JYB"]().created(_self);&#x000A;</Template>
+      <Template>    }&#x000A;</Template>
+      <Template>}&#x000A;</Template>
+    </FileTemplate>
+  </File>
+  <File>
+    <FilePath>CASystem.Web\scripts\Page\Customer\query\CustomerInfoViewFactory.js</FilePath>
+    <FileTemplate>
+      <Template>&#x000A;CustomerInfo.</Template>
+      <Template>DBQ</Template>
+      <Template> = function () {&#x000A;</Template>
+      <Template>    this.columns = function () {&#x000A;</Template>
+      <Template>        return new CustomerInfo["JYB"]().columns();&#x000A;</Template>
+      <Template>    }&#x000A;</Template>
+      <Template>}&#x000A;</Template>
+    </FileTemplate>
+  </File>
+  <File>
+    <FilePath>CASystem.Web\scripts\Page\Customer\query\ProcessNodeViewFactory.js</FilePath>
+    <FileTemplate>
+      <Template>&#x000A;ProcessNodeView.</Template>
+      <Template>DBQ</Template>
+      <Template> = function () {&#x000A;</Template>
+      <Template>    this.columns = function () {&#x000A;</Template>
+      <Template>        return new ProcessNodeView["JYB"]().columns();&#x000A;</Template>
+      <Template>    }&#x000A;</Template>
+      <Template>}&#x000A;</Template>
+    </FileTemplate>
+  </File>
+  <File>
+    <FilePath>CASystem.Web\scripts\Page\Customer\query\ReceiveVerifyViewFactory.js</FilePath>
+    <FileTemplate>
+      <Template>&#x000A;ReceiveVerifyView.</Template>
+      <Template>DBQ</Template>
+      <Template> = function () {&#x000A;</Template>
+      <Template>    this.columns = function () {&#x000A;</Template>
+      <Template>        return new ReceiveVerifyView["JYB"]().columns();&#x000A;</Template>
+      <Template>    }&#x000A;</Template>
+      <Template>}&#x000A;</Template>
+    </FileTemplate>
+  </File>
+  <File>
+    <FilePath>CASystem.Web\scripts\Page\Customer\query\SendSMSViewFactory.js</FilePath>
+    <FileTemplate>
+      <Template>&#x000A;SendSMSView.</Template>
+      <Template>DBQ</Template>
+      <Template> = function () {&#x000A;</Template>
+      <Template>    this.columns = function () {&#x000A;</Template>
+      <Template>        return new SendSMSView["JYB"]().columns();&#x000A;</Template>
+      <Template>    }&#x000A;</Template>
+      <Template>}&#x000A;</Template>
+    </FileTemplate>
+  </File>
+  <File>
+    <FilePath>CASystem.Web\scripts\Page\Customer\query\VerifyLogViewFactory.js</FilePath>
+    <FileTemplate>
+      <Template>&#x000A;VerifyLogView.</Template>
+      <Template>DBQ</Template>
+      <Template> = function () {&#x000A;</Template>
+      <Template>    this.columns = function () {&#x000A;</Template>
+      <Template>        return new VerifyLogView["JYB"]().columns();&#x000A;</Template>
+      <Template>    }&#x000A;</Template>
+      <Template>}&#x000A;</Template>
+    </FileTemplate>
+  </File>
+  <File>
+    <FilePath>CASystem.Web\scripts\Page\Verify\FirstVerify\CallbackViewFactory.js</FilePath>
+    <FileTemplate>
+      <Template>&#x000A;CallbackView.</Template>
+      <Template>DBQ</Template>
+      <Template> = function () {&#x000A;</Template>
+      <Template>    this.columns = function () {&#x000A;</Template>
+      <Template>        return new CallbackView["JYB"]().columns();&#x000A;</Template>
+      <Template>    }&#x000A;</Template>
+      <Template>}&#x000A;</Template>
+    </FileTemplate>
+  </File>
+  <File>
+    <FilePath>CASystem.Web\scripts\Page\Verify\FirstVerify\CustDetailFactory.js</FilePath>
+    <FileTemplate>
+      <Template>&#x000A;CustDetail.</Template>
+      <Template>DBQ</Template>
+      <Template> = function () {&#x000A;</Template>
+      <Template>    this.created = function (_self) {&#x000A;</Template>
+      <Template>        return new CustDetail["JYB"]().created(_self);&#x000A;</Template>
+      <Template>    }&#x000A;</Template>
+      <Template>}&#x000A;</Template>
+    </FileTemplate>
+  </File>
+  <File>
+    <FilePath>CASystem.Web\scripts\Page\Verify\FirstVerify\FirstReceiveVerifyViewFactory.js</FilePath>
+    <FileTemplate>
+      <Template>&#x000A;FirstReceiveVerifyView.</Template>
+      <Template>DBQ</Template>
+      <Template> = function () {&#x000A;</Template>
+      <Template>    this.columns = function () {&#x000A;</Template>
+      <Template>        return new FirstReceiveVerifyView["JYB"]().columns();&#x000A;</Template>
+      <Template>    }&#x000A;</Template>
+      <Template>    this.dateorderby = function () {&#x000A;</Template>
+      <Template>        return new FirstReceiveVerifyView["JYB"]().dateorderby();&#x000A;</Template>
+      <Template>    }&#x000A;</Template>
+      <Template>}&#x000A;</Template>
+    </FileTemplate>
+  </File>
+  <File>
+    <FilePath>CASystem.Web\scripts\Page\Verify\FirstVerify\FirstVerifyAgainViewFactory.js</FilePath>
+    <FileTemplate>
+      <Template>&#x000A;FirstVerifyAgainView.</Template>
+      <Template>DBQ</Template>
+      <Template> = function () {&#x000A;</Template>
+      <Template>    this.columns = function () {&#x000A;</Template>
+      <Template>        return new FirstVerifyAgainView["JYB"]().columns();&#x000A;</Template>
+      <Template>    }&#x000A;</Template>
+      <Template>}&#x000A;</Template>
+    </FileTemplate>
+  </File>
+  <File>
+    <FilePath>CASystem.Web\scripts\Page\Verify\FirstVerify\FirstVerifyApprovedViewFactory.js</FilePath>
+    <FileTemplate>
+      <Template>&#x000A;FirstVerifyApprovedView.</Template>
+      <Template>DBQ</Template>
+      <Template> = function () {&#x000A;</Template>
+      <Template>    this.columns = function () {&#x000A;</Template>
+      <Template>        return new FirstVerifyApprovedView["JYB"]().columns();&#x000A;</Template>
+      <Template>    }&#x000A;</Template>
+      <Template>}&#x000A;</Template>
+    </FileTemplate>
+  </File>
+  <File>
+    <FilePath>CASystem.Web\scripts\Page\Verify\FirstVerify\FirstVerifyReturnViewFactory.js</FilePath>
+    <FileTemplate>
+      <Template>&#x000A;FirstVerifyReturnView.</Template>
+      <Template>DBQ</Template>
+      <Template> = function () {&#x000A;</Template>
+      <Template>    this.columns = function () {&#x000A;</Template>
+      <Template>        return new FirstVerifyReturnView["JYB"]().columns();&#x000A;</Template>
+      <Template>    }&#x000A;</Template>
+      <Template>}&#x000A;</Template>
+    </FileTemplate>
+  </File>
+  <File>
+    <FilePath>CASystem.Web\scripts\Page\Verify\FirstVerify\firstVerifyViewFactory.js</FilePath>
+    <FileTemplate>
+      <Template>&#x000A;FirstVerify.</Template>
+      <Template>DBQ</Template>
+      <Template> = function () {&#x000A;</Template>
+      <Template>    this.columns = function () {&#x000A;</Template>
+      <Template>        var html = "&lt;div class=\"l-list\" id=\"tb\"&gt;"&#x000A;</Template>
+      <Template>            + "&lt;ul class=\"icon-list\"&gt;"&#x000A;</Template>
+      <Template>            + "&lt;li&gt;"&#x000A;</Template>
+      <Template>            + "&lt;a href=\"javascript:void(0)\" class=\"easyui-linkbutton\" iconCls=\"icon-system\" onclick=\"javascript:AuditVideo()\"&gt;推進GDCA視頻審批&lt;/a&gt;"&#x000A;</Template>
+      <Template>            + "&lt;a href=\"javascript:void(0)\" class=\"easyui-linkbutton\" iconCls=\"icon-system\" onclick=\"javascript:SearchAuditStatus()\"&gt;更新GDCA視頻審批狀態&lt;/a&gt;"&#x000A;</Template>
+      <Template>            + "&lt;/li&gt;"&#x000A;</Template>
+      <Template>            + "&lt;/ul&gt;"&#x000A;</Template>
+      <Template>            + "&lt;/div&gt;";&#x000A;</Template>
+      <Template>        $("body").append(html);&#x000A;</Template>
+      <Template>        $.parser.parse($("#tb"));&#x000A;</Template>
+      <Template>        var data = new FirstVerify["JYB"]().columns();&#x000A;</Template>
+      <Template>        data[0][11].formatter =&#x000A;</Template>
+      <Template>            function (value, row, index) {&#x000A;</Template>
+      <Template>                return "&lt;a href='javascript:void(0)' iconCls='icon-shenhe' class='shenhe' onclick='javascript:opreate(" + value + "," + row.CustNo + "," + row.AccountType + ")'&gt;審核&lt;/a&gt;"&#x000A;</Template>
+      <Template>                    + "&lt;br/&gt;&lt;a href='/verify/FirstVerify/ExportFiles?id=" + row.ID + "&amp;name=" + row.Name + "&amp;fileType=0' target='_blank'  style='text - decoration: none; color: #2A72C5;' iconCls='icon-fujian' class='fujian'&gt;下載附件&lt;/a&gt;";&#x000A;</Template>
+      <Template>            };&#x000A;</Template>
+      <Template>        return data;&#x000A;</Template>
+      <Template>    };&#x000A;</Template>
+      <Template>    this.opreate = function () {&#x000A;</Template>
+      <Template>        return new FirstVerify["JYB"]().opreate();&#x000A;</Template>
+      <Template>    };&#x000A;</Template>
+      <Template>}&#x000A;</Template>
+    </FileTemplate>
+  </File>
+  <File>
+    <FilePath>CASystem.Web\scripts\Page\Verify\SecondVerify\CusApprovedFactory.js</FilePath>
+    <FileTemplate>
+      <Template>&#x000A;CusApproved.</Template>
+      <Template>DBQ</Template>
+      <Template> = function () {&#x000A;</Template>
+      <Template>    this.columns = function (vIsOnlyFirst) {&#x000A;</Template>
+      <Template>        return new CusApproved["JYB"]().columns(vIsOnlyFirst);&#x000A;</Template>
+      <Template>    }&#x000A;</Template>
+      <Template>}&#x000A;</Template>
+    </FileTemplate>
+  </File>
+  <File>
+    <FilePath>CASystem.Web\scripts\Page\Verify\SecondVerify\SecondReceiveVerifyFactory.js</FilePath>
+    <FileTemplate>
+      <Template>&#x000A;SecondReceiveVerify.</Template>
+      <Template>DBQ</Template>
+      <Template> = function () {&#x000A;</Template>
+      <Template>    this.columns = function () {&#x000A;</Template>
+      <Template>        return new SecondReceiveVerify["JYB"]().columns();&#x000A;</Template>
+      <Template>    }&#x000A;</Template>
+      <Template>}&#x000A;</Template>
+    </FileTemplate>
+  </File>
+  <File>
+    <FilePath>CASystem.Web\scripts\Page\Verify\SecondVerify\SecondVerifyApprovedFactory.js</FilePath>
+    <FileTemplate>
+      <Template>&#x000A;SecondVerifyApproved.</Template>
+      <Template>DBQ</Template>
+      <Template> = function () {&#x000A;</Template>
+      <Template>    this.columns = function () {&#x000A;</Template>
+      <Template>        return new SecondVerifyApproved["JYB"]().columns();&#x000A;</Template>
+      <Template>    }&#x000A;</Template>
+      <Template>}&#x000A;</Template>
+    </FileTemplate>
+  </File>
+  <File>
+    <FilePath>CASystem.Web\scripts\Page\Verify\SecondVerify\SecondVerifyReturnFactory.js</FilePath>
+    <FileTemplate>
+      <Template>&#x000A;SecondVerifyReturn.</Template>
+      <Template>DBQ</Template>
+      <Template> = function () {&#x000A;</Template>
+      <Template>    this.columns = function () {&#x000A;</Template>
+      <Template>        return new SecondVerifyReturn["JYB"]().columns();&#x000A;</Template>
+      <Template>    }&#x000A;</Template>
+      <Template>}&#x000A;</Template>
+    </FileTemplate>
+  </File>
+  <File>
+    <FilePath>CASystem.Web\scripts\Page\Verify\SecondVerify\secondVerifyViewFactory.js</FilePath>
+    <FileTemplate>
+      <Template>&#x000A;SecondVerify.</Template>
+      <Template>DBQ</Template>
+      <Template> = function () {&#x000A;</Template>
+      <Template>    this.columns = function () {&#x000A;</Template>
+      <Template>        return new SecondVerify["COI"]().columns();&#x000A;</Template>
+      <Template>    }&#x000A;</Template>
+      <Template>}&#x000A;</Template>
+    </FileTemplate>
+  </File>
+</FileList>
